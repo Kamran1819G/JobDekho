@@ -1,0 +1,30 @@
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --text-primary-color: #f8f9fa;
+  --background-light-color: #f1f1f1;
+  --background-dark-color: #10121a;
+  font-family: "Poppins";
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  margin: auto;
+}
+
+.space-y {
+  margin-bottom: 20px;
+}
+.space-x {
+  margin-left: 20px;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
